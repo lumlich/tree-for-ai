@@ -1,7 +1,14 @@
 [package]
-name = "tree_for_ai"
+name = "tree_for_ai"         # nebo "ai-tree" pokud přejmenuješ
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+repository = "https://github.com/<your-username>/<repo>"
+homepage = "https://github.com/<your-username>/<repo>"
+readme = "README.md"
+description = "A tiny Rust CLI that prints an LLM-friendly project tree — relevant files only, 5-space indentation."
+keywords = ["ai", "llm", "tree", "project", "cli"]
+categories = ["command-line-utilities", "development-tools"]
 
 [dependencies]
 clap = { version = "4.5.4", features = ["derive"] }
